@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int t=1,a=12;
+    t=a++;
+    printf("pre.increment:,\n");
+    printf("value a=%d and t=%d",a,t);
+    printf("\n");
+    
+    
+    int h=3,r=84;
+    h=++r;
+    printf("pos.increment:\n");
+    printf("value r=%d and h=%d",r,h);
+    
+    
+    
+    
+    
+    
+}
