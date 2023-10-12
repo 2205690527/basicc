@@ -1,0 +1,31 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+ struct college
+ {
+    int cid;
+    char cname [20];
+ }c;
+ struct student
+ {
+     int rollno;
+     char sname [20];
+     struct college c;
+ }s1;
+ main()
+ {
+    printf("enter rollno= ");
+    scanf("%d",&s1.rollno);
+    printf("enter name= ");
+    scanf("%s",s1.sname);
+    printf("enter classid= ");
+    scanf("%d",&s1.c.cid);
+    printf("enter class name= ");
+    scanf("%s",s1.c.cname);
+    //display part
+    printf("details of student");
+    printf("rollno is %d\n",&s1.rollno);
+    printf("name is %s\n",s1.sname);
+    printf("classid is %d\n",s1.c.cid);
+    printf("class name is %s",s1.c.cname);
+    
+ }
